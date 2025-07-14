@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nsa-schemas"
-version = "0.1.0"
+version = "0.1.1"
 description = "Librairie commune de schémas Pydantic pour les microservices NSA"
 authors = ["rhodu13 <rhodu13@gmail.com>"]
 packages = [{ include = "nsa_schemas" }]
