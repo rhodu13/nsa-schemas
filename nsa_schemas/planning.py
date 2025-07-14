@@ -1,7 +1,7 @@
 """Pydantic schemas for the Planning entity in the PostgreSQL microservice."""
 
 from datetime import datetime
-from typing import Optional
+from typing import Dict, Optional
 
 from pydantic import BaseModel, ConfigDict
 
@@ -32,3 +32,12 @@ class PlanningOut(PlanningBase):
     created_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class PlanningGenerated(BaseModel):
+    """Planning hebdomadaire généré pour un joueur (disponibilités complètes)."""
+
+    player_id: str
+    team: str
+    week_start: str  # Date ISO du lundi
+    entries: Dict[str, str]  # {date_iso: "21h" ou "Indéterminée"}
