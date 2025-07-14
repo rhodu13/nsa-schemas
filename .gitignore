@@ -1,0 +1,146 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Environnements virtuels
+.env
+.envrc
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Fichiers d’environnement et secrets
+*.env
+.env.*
+credentials.json
+*.pem
+*.key
+
+# Build / distribution / packaging
+build/
+dist/
+develop-eggs/
+downloads/
+.eggs/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit tests / coverage / pytest reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.pytest_cache/
+report.html
+reports/
+
+# Hypothesis
+.hypothesis/
+
+# Docker / Compose
+*.log
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Base de données / fichiers temporaires
+*.sqlite3
+*.db
+*.sql
+*.pid
+*.swp
+
+# Django stuff
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter / IPython / Marimo
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Cython
+cython_debug/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Pipenv / Poetry / PDM / Pixi / UV
+Pipfile.lock
+poetry.lock
+poetry.toml
+pdm.lock
+pdm.toml
+.pdm-python
+.pdm-build/
+pixi.lock
+.pixi/
+uv.lock
+
+# PEP 582 / pyflow / pdm
+__pypackages__/
+
+# Static analysis / type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# IDEs / éditeurs
+.vscode/
+.idea/
+*.iml
+.spyderproject
+.spyproject
+.ropeproject
+
+# Cursor AI Editor
+.cursorignore
+.cursorindexingignore
+
+# Abstra
+.abstra/
+
+# OS / système
+.DS_Store
+Thumbs.db
